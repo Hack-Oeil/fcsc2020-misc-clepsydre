@@ -14,8 +14,6 @@ RUN ssh-keygen -A
 # Copie le fichier message_ssh.txt depuis le système hôte vers le conteneur
 COPY message.txt /etc/motd
 
-COPY ./oracle.py /home/cyrhades/oracle.py
-
 # Crée un utilisateur "cyrhades" avec mot de passe "secret"
 RUN adduser -D cyrhades && \
     echo "cyrhades:secret" | chpasswd
