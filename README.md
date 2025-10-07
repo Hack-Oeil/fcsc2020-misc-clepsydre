@@ -13,7 +13,7 @@ Origine : [Clepsydre](https://hackropole.fr/fr/challenges/misc/fcsc2020-misc-cle
 > http://localhost
 
 #### tentez 
-> nc clepsydre.cyrhades.com:4000
+> nc clepsydre.cyrhades.fr:4000
 
 
 -----------
